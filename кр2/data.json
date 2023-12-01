@@ -1,0 +1,76 @@
+[
+    {
+      "id": "1",
+      "title": "Лот 1",
+      "vendor_code": "111",
+      "description": "Даша в туалете в Амстердаме",
+      "price": 52,
+      "img": "dashagallery/bathroomdasha.jpeg"
+    },
+    {
+      "id": "2",
+      "title": "Лот 2",
+      "vendor_code": "222",
+      "description": "Даша в электричке",
+      "price": 52,
+      "img": "dashagallery/traindasha.jpeg"
+    },
+    {
+      "id": "3",
+      "title": "Лот 3",
+      "vendor_code": "333",
+      "description": "Даша курит",
+      "price": 52,
+      "img": "dashagallery/cigarettedasha.jpeg"
+    },
+    {
+      "id": "4",
+      "title": "Лот 4",
+      "vendor_code": "444e",
+      "description": "Даша репетирует магшот",
+      "price": 52,
+      "img": "dashagallery/mugdasha.jpeg"
+    }
+    ,
+    {
+      "id": "5",
+      "title": "Лот 5",
+      "vendor_code": "4445e",
+      "description": "Даша последний раз у Вышки",
+      "price": 52,
+      "img": "dashagallery/hsedasha.jpeg"
+    },
+    {
+      "id": "6",
+      "title": "Лот 6",
+      "vendor_code": "4446e",
+      "description": "Даша в Италии радуется морю",
+      "price": 52,
+      "img": "dashagallery/happydasha.jpeg"
+    },
+    {
+      "id": "7",
+      "title": "Лот 7",
+      "vendor_code": "4447e",
+      "description": "Даша в Амстердаме у реки",
+      "price": 52,
+      "img": "dashagallery/riverdasha.jpeg"
+    },
+    {
+      "id": "8",
+      "title": "Лот 8",
+      "vendor_code": "4448e",
+      "description": "Даша строит из себя фифу в черном платье",
+      "price": 52,
+      "img": "dashagallery/secretblackdasha.jpeg"
+    },
+    {
+      "id": "9",
+      "title": "Лот 9",
+      "vendor_code": "444e",
+      "description": "Даша строит из себя фифу в черной рубашке",
+      "price": 52,
+      "img": "dashagallery/secretdasha.jpeg"
+    }
+    
+  ]

@@ -1,0 +1,153 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Оформление заказа</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container-fluid bg-success">
+
+    <header class="card bg-warning p-2" style="height: 3.rem">
+      <div class="card-body bg-color text-center">
+        <h5 class="card-title" id="top_of _page">Интернет-магазин им. Даши Плетюшкиной</h5>
+        <img height="160px" src="img/dashamainphone.jpeg" alt="фотография Даши" title="вы посмотрите какая она красивая" class="img-fluid" style="max-width:160px">
+      </div>
+    </header>
+
+
+    <div class="card bg-warning p-2">
+      <div class="card-body">
+        <ul class="nav nav-tabs">
+          <li class="nav-item"> <a class="nav-link" href="кр21.html"> Начальная страница</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="кр22.html"><img height="30px"
+                src="img/dashashocked.jpeg">Каталог фотографий</a></li>
+          <li class="nav-item"> <a class="nav-link active" href="кр23.html"
+              style="background-color:blueviolet">Оформление заказа</a></li>
+
+        </ul>
+      </div>
+
+
+      <div class="card-body">
+        <h5 class='card-title text-center'>Оформление заказа</h5>
+        <form action="https://www.bing.com/search?" id="UseEnter" name="UserEnter" target="_blank">
+          <input name="q" type="hidden" value="спасибо, начинаем собирать заказ!">
+          <p>Имя<br><input class="w-25" type="text" name="name" value="Иван"></p>
+          <p>Фамилия<br><input type="text" name="surname" value="Иванов"></p>
+          <p>Введите количество выбраных фотографий<br><input class="w-25" type="number" name="amount" value="0"></p>
+          <p>Как узнали о нас?</p>
+          <p><input type="radio" id="how1" name="how" value="radio" checked>
+          <label for="how1">По радио</label></p>
+      
+          <p><input type="radio" id="how2" name="how" value="fellows" />
+          <label for="how2">От знакомых</label></p>
+      
+          <p><input type="radio" id="how3" name="how" value="another">
+          <label for="how3">Другое</label></p>
+          <!--<p><input type="radio" value="radioo" name="side" checked id="method1"><label for="method1">По радио</label></p>
+          <p><input type="radio" value="fellow" name="side"  id="method2"><label for="method2">От знакомых</label></p>
+          <p><input type="radio" value="another" name="side" id="method2"><label for="method3">Другое</label></p>-->
+          <p>Введите номер банковской карты<br><input type="password" name="pass" value="1234567890"></p>
+          <p><input class="btn btn-primary" type="Reset" name="Reset" value="Обновить"></p>
+          <p><input class="btn btn-primary" type="Submit" value="Оформить"></p>
+        </form>
+      </div>
+       <!-- <form action="https://www.bing.com/search?" name="UserEnter" target="_blank">
+          <input type="hidden" name="thanks" value="спасибо, начинаем собирать заказ!" >
+          <p>Имя<br><input type="text" name="name"></p>
+                         
+          <p>Фамилия<br><input type="text" name="surname"></p>
+          <p>Количество фотографий<br><input type="number" name="amount"></p>
+          <p>Как узнали о нас?</p>
+      <p><input type="radio" value="side" name="side">По радио</p>
+      <p><input type="radio" value="side" name="side">От знакомых</p>
+      <p><input type="radio" value="side" name="side">Другое</p>
+      <p>Введите номер банковской карты<br><input type="password" name="pass"></p>
+
+    
+
+      <p><input type="Reset" name="Reset" value="Обновить">
+  <input type="Submit" name="submit" value="Отправить">
+</p>
+</form>
+
+          <div class="row mb-3">
+
+            <label for="inputName" class="col-sm-2 col-form-label">Имя</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputName" name="Name">
+            </div>
+          </div>
+
+          <div class="row mb-3">
+
+            <label for="inputSurname" class="col-sm-2 col-form-label">Фамилия</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputSurname" name="Surname">
+            </div>
+          </div>
+
+          <div class="row mb-3">
+
+
+          <div class="row mb-3">
+
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Эл. почта</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3" name="mail">
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Номер банковской карточки</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword3" name="password">
+            </div>
+          </div>
+          
+          <fieldset class="row mb-3">
+            <legend class="col-form-label col-sm-2 pt-0">Как вы узнали о нас?</legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                  От друзей
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  Через Интернет
+                </label>
+              </div>
+              <div class="form-check disabled">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                <label class="form-check-label" for="gridRadios3">
+                  Другое
+                </label>
+              </div>
+            </div>
+          </fieldset>
+      <div class="col-auto">
+        <button type="reset" class="btn btn-primary">Обновить</button>
+      </div><br>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary">Отправить</button>
+      </div>
+    </div>
+  </form>
+</div>
+-->
+    <div class="card-footer">
+      <p style="font-size:small"> © Все фотографии и вся информация используются с устного согласия Плетюшкиной Д. А.
+      </p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
